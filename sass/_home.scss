@@ -236,11 +236,11 @@
           line-height: 140%;
           margin-bottom: 3.1rem;
         }
-        .btns{
+        .btns {
           display: flex;
           align-items: center;
-          button{
-            &:not(:first-child){
+          button {
+            &:not(:first-child) {
               margin-left: 1.6rem;
             }
           }
@@ -250,5 +250,39 @@
         margin-right: -3.1rem;
       }
     }
+  }
+}
+
+.s-depoimentos {
+  padding-top: 13.4rem;
+  .top {
+    @include flex(row, flex-end, space-between);
+    margin-bottom: 4rem;
+    h2 {
+      span {
+        display: block;
+        color: $gray-200;
+      }
+    }
+    .swiper-pagination {
+      position: relative;
+      width: 5%;
+      .swiper-pagination-bullet{
+        background: $brand-yellow;
+        opacity: 0.3;
+        border-radius: 12px;
+        transition: all 0.3s;
+        &:not(:first-child){
+          margin-left: 0.4rem;
+        }
+        &-active{
+          opacity: 1;
+          width: 1.723rem;
+        }
+      }
+    }
+  }
+  .slides-depoimentos {
+    overflow: hidden;
   }
 }
