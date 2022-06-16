@@ -290,6 +290,10 @@
 .s-conta-digital{
   padding-top:12.7rem;
   padding-bottom: 8.4rem;
+  .container{
+    display: flex;
+    align-items: center;
+  }
     .text{
       max-width: 54.2rem;
       h2{
@@ -310,8 +314,47 @@
             margin-bottom: 4.5rem;
           }
           .icon{
-            
+            width: 4.5rem;
+            height: 4.5rem;
+            background-color: $brand-gree-light;
+            border-radius: 8px;
+            @include flex(row, center, center);
+            margin-right: 26px;
           }
+          .info{
+            h4{
+              margin-bottom: 0.4rem;
+              color: $gray-400;
+            }
+            p{
+              font: size 18px;
+              line-height: 150%;
+              color:$gray-300;
+            }
+          }
+        }
+      }
+    }
+    .image{
+      position: relative;
+      width: 100%;
+      max-width:71.2rem;
+      height: 59.8rem;
+      margin-right: -3.5rem;
+      left: 12.5rem;
+      img{
+        position: absolute;
+        &.mockup-01{
+          left: 0;
+          bottom: 4.7rem;
+        }
+        &.mockup-02{
+          top: 3px;
+          left: 258px;
+        }
+        &.circle{
+          right: 0;
+          bottom: 0;
         }
       }
     }
