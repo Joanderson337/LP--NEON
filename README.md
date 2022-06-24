@@ -30,6 +30,12 @@ Mobile
 ![image](https://user-images.githubusercontent.com/77758027/175203574-0690e6f1-8fdb-4252-8416-885878878430.png)
 
 
+## Executar 
+
+1. `git clone` nesse repositório;
+
+
+
 
 👋🏽 Entre em contato!
 <br/>
