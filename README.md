@@ -10,7 +10,13 @@ Link do Projeto
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /> 
 <img width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
           
-          
+
+## Para executar o projeto ⤸
+
+1. `git clone` nesse repositório;
+2. Ter a extenção live server no seu vscode;
+3. Ir até o arquivo `index.html`, clicar com o botão direito, encima do arquivo `index.html` e selecionar `Abrir com live server` 
+
 
   
 
@@ -27,12 +33,6 @@ Desktop
 Mobile
 <br>
 ![image](https://user-images.githubusercontent.com/77758027/175203574-0690e6f1-8fdb-4252-8416-885878878430.png)
-
-
-## Executar 
-
-1. `git clone` nesse repositório;
-
 
 
 
