@@ -15,7 +15,7 @@ Link do Projeto
 
 1. `git clone` nesse repositório;
 2. Ter a extenção live server no seu vscode;
-3. Ir até o arquivo `index.html`, clicar com o botão direito, encima do arquivo `index.html` e selecionar `Abrir com live server` 
+3. Clicar com o botão direito, encima do arquivo `index.html` e selecionar `Abrir com live server` 
 
 
   
